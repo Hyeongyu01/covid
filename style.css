@@ -1,0 +1,102 @@
+body {
+  background-color: #adb1ed;
+
+  background-size:500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  font-family: 'Syne Tactile', cursive;
+  font-family: 'Syne Mono', monospace;
+  height: 100vh;
+  transition-property: all;
+  transition-duration:20s;
+}
+#man{
+  position: absolute;
+  top: 670px;
+  left:10px;
+}
+
+#Wash{
+
+}
+
+#doggy{
+  position: absolute;
+  top: 600px;
+  left: 1200px;
+}
+
+#window{
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  background-color: blue;
+  text-align: center;
+  width: 200px;
+
+  transition-property: all;
+  transition-duration: 0.5s;
+
+  animation-name: bounce;
+  animation-duration: 5s;
+
+}
+
+#window:hover {
+
+  background-color: red;
+}
+
+#link{
+  font-family: 'Turret Road', cursive;
+  font-size:30px;
+}
+
+#index{
+  background-image:url("virus.jpg");
+  background-size: 1200px;
+  background-position: right;
+
+
+}
+
+@keyframes bounce{
+  0%{
+    top:500px;  opacity: 0.2; }
+  100%{
+    top:50px;   opacity: 0.8;}
+}
+
+
+h1 {
+    color:#a11f2d;
+    text-align:center;
+    font-size:100px;
+    background-image:url("pandemic.jpg");
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color:#4a409c;
+    border-color: #2a0852;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 30px;
+    padding:10px;
+    width: 500px;
+    margin: 30px;
+    }
+
+p {
+    color:#232b99;
+    font-size:30px;
+}
+
+h3 {
+   color:skyblue;
+}
+
+
+#welcome {font-size: 100px;}
+.link {
+  font-size:50px;}
